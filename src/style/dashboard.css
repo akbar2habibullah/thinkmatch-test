@@ -1,0 +1,12 @@
+.dashboard-wrapper {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+}
+
+.chart-wrapper {
+    background-color: white;
+    padding: 10px;
+    padding-top: 20px;
+}
