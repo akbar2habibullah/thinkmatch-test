@@ -9,7 +9,7 @@ import "../style/dashboard.css";
 const Dashboard = (props) => {
   if (!isAuth()) props.history.push("/sign-in");
 
-  const [options, setOptions] = useState({
+  const [options] = useState({
     chart: {
       id: "basic-line",
     },
@@ -52,7 +52,7 @@ const Dashboard = (props) => {
     },
   });
 
-  const [series, setSeries] = useState([
+  const [series] = useState([
     {
       name: "Value",
       data: data.map((datum) => datum.prob),
