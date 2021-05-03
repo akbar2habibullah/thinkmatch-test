@@ -5,10 +5,10 @@
 }
 
 body {
-  background: #1c8ef9 !important;
   min-height: 100vh;
   font-weight: 400;
   font-family: "Fira Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 h1,

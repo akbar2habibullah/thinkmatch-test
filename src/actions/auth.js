@@ -19,3 +19,10 @@ export const isAuth = () => {
     return false;
   }
 };
+
+export const logOut = (callback) => {
+  const cookies = new Cookies();
+  cookies.remove('access-token');
+  
+  callback();
+}
