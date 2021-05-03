@@ -89,32 +89,32 @@ const Dashboard = (props) => {
             <ul className="nav flex-column">
               <li className="nav-item">
                 <a className="nav-link" href="/">
-                  <Home size={18}/>{' '}Dashboard
+                  <Home />{' '}<span>Dashboard</span> 
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/">
-                  <File />{' '}Orders
+                  <File />{' '}<span>Orders</span>  
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/">
-                  <ShoppingCart />{' '}Products
+                  <ShoppingCart />{' '}<span>Products</span>
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/">
-                  <Users />{' '}Customers
+                  <Users />{' '}<span>Customers</span>
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/">
-                  <BarChart2 />{' '}Reports
+                  <BarChart2 />{' '}<span>Reports</span>
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/">
-                  <Layers />{' '}Integrations
+                  <Layers />{' '}<span>Integrations</span>
                 </a>
               </li>
             </ul>
