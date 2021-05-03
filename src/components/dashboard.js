@@ -58,12 +58,12 @@ const Dashboard = (props) => {
 
   return (
     <>
-      <nav className="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow-sm">
+      <nav className="navbar navbar-dark sticky-top bg-primary flex-md-nowrap p-0 shadow-sm">
         <a className="navbar-brand col-sm-3 col-md-2 mr-0" href="/">
           Mini Dashboard
         </a>
         <input
-          className="form-control form-control-dark w-100 h-100"
+          className="form-control w-100 h-100"
           type="text"
           placeholder="Search"
           aria-label="Search"
@@ -87,34 +87,34 @@ const Dashboard = (props) => {
         <nav className="col-md-2 d-none d-md-block bg-light sidebar">
           <div className="sidebar-sticky">
             <ul className="nav flex-column">
-              <li className="nav-item">
+              <li className="nav-item mt-2">
                 <a className="nav-link" href="/">
-                  <Home />{' '}<span>Dashboard</span> 
+                  <Home />{'   '}<span>Dashboard</span> 
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mt-2">
                 <a className="nav-link" href="/">
-                  <File />{' '}<span>Orders</span>  
+                  <File />{'   '}<span>Orders</span>  
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mt-2">
                 <a className="nav-link" href="/">
-                  <ShoppingCart />{' '}<span>Products</span>
+                  <ShoppingCart />{'   '}<span>Products</span>
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mt-2">
                 <a className="nav-link" href="/">
-                  <Users />{' '}<span>Customers</span>
+                  <Users />{'   '}<span>Customers</span>
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mt-2">
                 <a className="nav-link" href="/">
-                  <BarChart2 />{' '}<span>Reports</span>
+                  <BarChart2 />{'  '}<span>Reports</span>
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item mt-2">
                 <a className="nav-link" href="/">
-                  <Layers />{' '}<span>Integrations</span>
+                  <Layers />{'   '}<span>Integrations</span>
                 </a>
               </li>
             </ul>
